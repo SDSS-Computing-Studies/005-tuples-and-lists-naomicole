@@ -19,3 +19,5 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+ 
+people=["Cat","Fish","Dog","Bear","Turtle"]
