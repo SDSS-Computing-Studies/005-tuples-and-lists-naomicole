@@ -22,13 +22,11 @@ Enter the index for an animal:2
 The animal at that index is Dog
 """
 
-animals=["Cat","Fish","Dog","Bear","Turtle"]
-animals.sort()
+animal=["Cat","Fish","Dog","Bear","Turtle"]
+animal.sort()
 
 n=input("Enter a number: ")
-n=str(n)
+n=int(n)
 
-print(animals[n])
-
-
+print("The animal at the index is "+animal[n])
 
