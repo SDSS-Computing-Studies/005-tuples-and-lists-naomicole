@@ -20,4 +20,12 @@ Enter the replacement:Dan
 
 """
  
-people=["Cat","Fish","Dog","Bear","Turtle"]
+people=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+
+a=input("Enter a word: ")
+b=input("Enter another word: ")
+
+position=(people.index(a))
+number=people[position]
+people=[a.replace(number, b) for a in people]
+print(people)
