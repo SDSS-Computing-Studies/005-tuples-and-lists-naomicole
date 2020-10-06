@@ -22,8 +22,8 @@ Enter the replacement:Dan
  
 people=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 
-a=input("Enter a word: ")
-b=input("Enter another word: ")
+a=input("Enter a word: ").strip()
+b=input("Enter another word: ").strip()
 
 position=(people.index(a))
 number=people[position]
