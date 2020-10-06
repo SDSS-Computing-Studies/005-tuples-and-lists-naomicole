@@ -29,12 +29,13 @@ fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry
 x=input("Enter a word: ")
 
 n=fruit.count(x)
-n=int(n)
 
 if x in fruit:
- fruit.remove(x)==0
- print(fruit)
+    for i in range(0,n):
+     fruit.remove(x)
 
 else:
+    print("word not in list")
     fruit.append(x)
-    print(fruit)
+    
+print(fruit)
