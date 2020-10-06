@@ -25,17 +25,15 @@ The largest number you entered is 92
 """
 
 numbers=[]
-x=input("Enter a number: ")
 
-while x!=-1:
-    numbers.append(x)
-    x=input("Enter a number: ")
-    if x==-1:
+while True:
+    x=int(input("Enter a number: "))
+    if x!=-1:
         numbers.append(x)
+        
+    else:
         numbers.sort()
-        print("The largest number you entered is "+numbers[-1])
+        y=str(numbers[-1])
+        print("The largest number you entered is "+y)
         break
-
-
-
 
